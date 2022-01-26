@@ -6,6 +6,7 @@ body {
 
 .mainGrid {
     display: flex;
+    max-width: 960px;
 }
 
 .row {
@@ -22,5 +23,10 @@ body {
 }
 
 .coloured {
+    flex: 1;
+    min-width: 20px;
+    min-height: 20px;
+    border: 1px solid gray;
+    margin: 2px;    
     background-color: darkcyan;
 }
